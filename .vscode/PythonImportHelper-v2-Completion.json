@@ -1,0 +1,284 @@
+[
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.graph_objects",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.graph_objects",
+        "description": "plotly.graph_objects",
+        "detail": "plotly.graph_objects",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.express",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.express",
+        "description": "plotly.express",
+        "detail": "plotly.express",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
+        "isExtraImport": true,
+        "detail": "textblob",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "SentimentAnalyzer",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class SentimentAnalyzer:\n    def __init__(self):\n        self.emotion_keywords = {\n            'confused': ['confused', 'lost', 'don\\'t understand', 'unclear', 'what', 'huh', '?', 'help'],\n            'frustrated': ['frustrated', 'annoying', 'difficult', 'hard', 'stuck', 'can\\'t', 'impossible'],\n            'confident': ['yes', 'got it', 'understand', 'clear', 'easy', 'sure', 'know'],\n            'excited': ['cool', 'awesome', 'interesting', 'wow', 'amazing', 'love', 'great']\n        }\n    def analyze_emotion(self, text: str, response_time: float = None, is_correct: bool = None) -> Dict:\n        # Text-based sentiment analysis",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "DifficultyAdapter",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class DifficultyAdapter:\n    def __init__(self):\n        self.min_difficulty = 1\n        self.max_difficulty = 10\n        self.adjustment_factors = {\n            'confident': 0.5,\n            'excited': 0.3,\n            'confused': -0.7,\n            'frustrated': -1.0,\n            'neutral': 0.0",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "AITutor",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class AITutor:\n    def __init__(self):\n        self.conversation_history = []\n        self.current_topic = None\n        self.difficulty_level = 3\n        self.knowledge_base = {\n            \"Newton's Laws of Physics\": {\n                \"concepts\": [\"inertia\", \"force\", \"acceleration\", \"action-reaction\", \"momentum\"],\n                \"explanations\": {\n                    \"inertia\": \"An object at rest stays at rest, an object in motion stays in motion unless acted upon by a force.\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "FlashcardGenerator",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class FlashcardGenerator:\n    @staticmethod\n    def generate_flashcards(topic: str, conversation_content: str, difficulty: int) -> List[Dict]:\n        # Enhanced keyword extraction for flashcard generation\n        keywords = re.findall(r'\\b[A-Z][a-z]{3,}\\b', conversation_content)\n        # Also extract important terms mentioned in conversation\n        important_terms = re.findall(r'\\b(?:define|what is|explain|concept|principle|law|formula|equation)\\s+([A-Za-z\\s]{3,15})', conversation_content.lower())\n        all_terms = list(set(keywords + [term.strip() for term in important_terms]))[:5]\n        flashcards = []\n        for i, term in enumerate(all_terms):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "init_database",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def init_database():\n    conn = sqlite3.connect('ai_mentor.db')\n    cursor = conn.cursor()\n    # Users table\n    cursor.execute('''\n        CREATE TABLE IF NOT EXISTS users (\n            id INTEGER PRIMARY KEY,\n            username TEXT UNIQUE,\n            password_hash TEXT,\n            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_id",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_user_id(username: str) -> int:\n    conn = sqlite3.connect('ai_mentor.db')\n    cursor = conn.cursor()\n    cursor.execute('SELECT id FROM users WHERE username = ?', (username,))\n    result = cursor.fetchone()\n    if result:\n        user_id = result[0]\n    else:\n        cursor.execute('INSERT INTO users (username, password_hash) VALUES (?, ?)', \n                      (username, hash_password(\"default\")))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_session",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def create_session(user_id: int, topic: str) -> int:\n    conn = sqlite3.connect('ai_mentor.db')\n    cursor = conn.cursor()\n    cursor.execute('INSERT INTO sessions (user_id, topic) VALUES (?, ?)', (user_id, topic))\n    session_id = cursor.lastrowid\n    conn.commit()\n    conn.close()\n    return session_id\ndef hash_password(password: str) -> str:\n    return hashlib.sha256(password.encode()).hexdigest()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    return hashlib.sha256(password.encode()).hexdigest()\ndef verify_user(username: str, password: str) -> bool:\n    conn = sqlite3.connect('ai_mentor.db')\n    cursor = conn.cursor()\n    cursor.execute('SELECT password_hash FROM users WHERE username = ?', (username,))\n    result = cursor.fetchone()\n    conn.close()\n    if result:\n        return result[0] == hash_password(password)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "verify_user",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def verify_user(username: str, password: str) -> bool:\n    conn = sqlite3.connect('ai_mentor.db')\n    cursor = conn.cursor()\n    cursor.execute('SELECT password_hash FROM users WHERE username = ?', (username,))\n    result = cursor.fetchone()\n    conn.close()\n    if result:\n        return result[0] == hash_password(password)\n    return False\ndef register_user(username: str, password: str) -> bool:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def register_user(username: str, password: str) -> bool:\n    conn = sqlite3.connect('ai_mentor.db')\n    cursor = conn.cursor()\n    try:\n        cursor.execute(\n            'INSERT INTO users (username, password_hash) VALUES (?, ?)',\n            (username, hash_password(password))\n        )\n        conn.commit()\n        return True",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "save_conversation",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def save_conversation(session_id: int, user_message: str, ai_response: str, \n                     sentiment_score: float, emotion: str, response_time: float,\n                     is_correct: bool = None, difficulty: int = 3):\n    conn = sqlite3.connect('ai_mentor.db')\n    cursor = conn.cursor()\n    cursor.execute('''\n        INSERT INTO conversations \n        (session_id, user_message, ai_response, sentiment_score, emotion_detected, \n         response_time, is_correct, difficulty_level)\n        VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_analytics",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_user_analytics(user_id: int) -> Dict:\n    conn = sqlite3.connect('ai_mentor.db')\n    cursor = conn.cursor()\n    # Get session stats\n    cursor.execute('''\n        SELECT COUNT(*) as total_sessions,\n               AVG(CASE WHEN total_questions > 0 THEN correct_answers * 1.0 / total_questions ELSE 0 END) as avg_accuracy,\n               AVG(avg_sentiment) as avg_sentiment\n        FROM sessions WHERE user_id = ?\n    ''', (user_id,))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_components",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def initialize_components():\n    init_database()\n    sentiment_analyzer = SentimentAnalyzer()\n    difficulty_adapter = DifficultyAdapter()\n    return sentiment_analyzer, difficulty_adapter\nimport os\n# Main Application\ndef main():\n           # Add this at the beginning of main() to reset database\n# import os",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def main():\n           # Add this at the beginning of main() to reset database\n# import os\n#  if st.button(\"Reset Database (Development Only)\", key=\"reset_db\"):\n#     if os.path.exists('ai_mentor.db'):\n#         os.remove('ai_mentor.db')\n#     st.success(\"Database reset! Please refresh the page.\")\n    # st.stop()\n    st.markdown('<h1 class=\"main-header\">🤖 AI Mentor</h1>', unsafe_allow_html=True)\n    st.markdown('<p style=\"text-align: center; font-size: 1.2rem; color: #666;\">Your Personalized Learning Coach with Emotion & Performance Awareness</p>', unsafe_allow_html=True)",
+        "detail": "app",
+        "documentation": {}
+    }
+]
